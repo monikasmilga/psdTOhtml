@@ -36,12 +36,13 @@ body {
 }
 
 .register-in-wrapper {
-    background: url(../images/pixel-pattern.png) center center repeat-x;
+    background: url(../images/pixel-pattern.png) repeat-x center center;
     text-align: center;
     margin-bottom: 12px;
 }
 
 .register-in {
+    display: inline-block;
     background-color: white;
     padding-left: 34px;
     padding-right: 34px;
@@ -54,4 +55,27 @@ body {
     background-color: #f7f7f7;
     border: solid 1px #ebebeb;
     border-radius: 3px;
+    padding: 33px 114px 32px 122px;
+}
+
+label {
+    background: #95bac8 url(../images/shadow.png) no-repeat right;
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 148px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 6px 0px;
+    text-shadow: 0 1px 1px rgba(100, 140, 155, 1);
+    box-shadow: 1px 1px 1px 0 #6e8993 inset ;
+    border-bottom: white solid 1px;
+    border-right: white solid 1px;
+}
+
+button{
+    background-color: #5a4d71;
+
 }
