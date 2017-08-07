@@ -1,0 +1,57 @@
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateX(-50%);
+    -webkit-transform: translateX(-50%) translateX(-50%);
+    transform: translateX(-50%) translateX(-50%);
+}
+
+.logo {
+    padding-left: 27px;
+    padding-bottom: 47px;
+    font-size: 30px;
+}
+
+.logo b {
+    font-size: 48px;
+}
+
+.form-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
+    padding: 24px;
+}
+
+.register-in-wrapper {
+    background: url(../images/pixel-pattern.png) center center repeat-x;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.register-in {
+    background-color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-size: 36px;
+    color: #504465;
+    font-weight: 700;
+}
+
+.form {
+    background-color: #f7f7f7;
+    border: solid 1px #ebebeb;
+    border-radius: 3px;
+}
